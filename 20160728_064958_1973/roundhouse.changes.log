@@ -1,0 +1,84 @@
+2016-07-28 06:49:58,225 [INFO ] - Running RoundhousE v0.8.6.0 against Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:49:58,234 [INFO ] - Looking in C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion for scripts to run.
+2016-07-28 06:49:58,236 [INFO ] - Please press enter when ready to kick...
+2016-07-28 06:50:01,021 [INFO ] - ==================================================
+2016-07-28 06:50:01,022 [INFO ] - Setup, Backup, Create/Restore/Drop
+2016-07-28 06:50:01,024 [INFO ] - ==================================================
+2016-07-28 06:50:01,025 [INFO ] - Creating DBVersion database on Maurice-PC3\SqlExpress server if it doesn't exist.
+2016-07-28 06:50:01,323 [INFO ] - Setting recovery mode to 'Simple' for database DBVersion.
+2016-07-28 06:50:02,184 [INFO ] - ==================================================
+2016-07-28 06:50:02,185 [INFO ] - RoundhousE Structure
+2016-07-28 06:50:02,186 [INFO ] - ==================================================
+2016-07-28 06:50:02,187 [INFO ] -  Running database type specific tasks.
+2016-07-28 06:50:02,187 [INFO ] -  Creating RoundhousE schema if it doesn't exist.
+2016-07-28 06:50:02,196 [INFO ] -  Creating [Version] table if it doesn't exist.
+2016-07-28 06:50:02,197 [INFO ] -  Creating [ScriptsRun] table if it doesn't exist.
+2016-07-28 06:50:02,197 [INFO ] -  Creating [ScriptsRunErrors] table if it doesn't exist.
+2016-07-28 06:50:02,260 [INFO ] - ==================================================
+2016-07-28 06:50:02,261 [INFO ] - Versioning
+2016-07-28 06:50:02,262 [INFO ] - ==================================================
+2016-07-28 06:50:02,355 [INFO ] -  Attempting to resolve version from C:\WINDOWS\system32\_BuildInfo.xml using //buildInfo/version.
+2016-07-28 06:50:02,357 [WARN ] - Unable to get version from xml file C:\WINDOWS\system32\_BuildInfo.xml. File doesn't exist.
+2016-07-28 06:50:02,359 [INFO ] -  Migrating DBVersion from version 0 to 0.
+2016-07-28 06:50:02,360 [INFO ] -  Versioning DBVersion database with version 0 based on https://github.com/obibiman/ManageDbVersion.git.
+2016-07-28 06:50:02,400 [INFO ] - ==================================================
+2016-07-28 06:50:02,401 [INFO ] - Migration Scripts
+2016-07-28 06:50:02,402 [INFO ] - ==================================================
+2016-07-28 06:50:02,406 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,408 [INFO ] - Looking for AlterDatabase scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\alterDatabase".
+2016-07-28 06:50:02,410 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,413 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,414 [INFO ] - Looking for Run After Create Database scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\runAfterCreateDatabase". These should be one time only scripts.
+2016-07-28 06:50:02,417 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,434 [INFO ] -  Running 0000_CreateSchemas.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,446 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,447 [INFO ] - Looking for Run Before Update scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\runBeforeUp".
+2016-07-28 06:50:02,449 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,450 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,452 [INFO ] - Looking for Update scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\up". These should be one time only scripts.
+2016-07-28 06:50:02,455 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,462 [INFO ] -  Running 0001_CreateTables.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,472 [INFO ] -  Running 0001_CreateTables_NH.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,489 [INFO ] -  Running 0002_ChangeTable.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,507 [INFO ] -  Running 0003_TestBatchSplitter.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,517 [INFO ] -  Running 0004_CreateBiocatTable.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,544 [INFO ] -  Running 0005_AlterBiocatTables.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,560 [INFO ] -  Running 0007_InserrtBiocatData.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,614 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,615 [INFO ] - Looking for Run First After Update scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\runFirstAfterUp".
+2016-07-28 06:50:02,618 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,619 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,620 [INFO ] - Looking for Function scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\functions".
+2016-07-28 06:50:02,623 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,627 [INFO ] -  Running ufn_GetDate.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,643 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,645 [INFO ] - Looking for View scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\views".
+2016-07-28 06:50:02,648 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,652 [INFO ] -  Running vw_Dude.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,663 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,665 [INFO ] - Looking for Stored Procedure scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\sprocs".
+2016-07-28 06:50:02,667 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,671 [INFO ] -  Running 0.001_Create_SelectSequence_StoredProcedure.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,683 [INFO ] -  Running 0006_CreateStoredProc.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,693 [INFO ] -  Running usp_GetDate.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,706 [INFO ] -  Running usp_SelectTimmy.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,717 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,718 [INFO ] - Looking for Index scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\indexes".
+2016-07-28 06:50:02,720 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,722 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,723 [INFO ] - Looking for Run after Other Anytime Scripts scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\runAfterOtherAnyTimeScripts".
+2016-07-28 06:50:02,726 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,730 [INFO ] -  Running createFiveItems.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,735 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,737 [INFO ] - Looking for Permission scripts in "C:\DevSource\DotNet\RoundHouseDbMgmt_HP8740\code_drop\sample\deployment\..\db\SQLServer\DBVersion\permissions". These scripts will run every time
+2016-07-28 06:50:02,739 [INFO ] - --------------------------------------------------
+2016-07-28 06:50:02,747 [INFO ] -  Running 0001_AppRole.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,782 [INFO ] -  Running 0002_AppReadOnlyRole.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,793 [INFO ] -  Running 0003_AppPermissionsWiring.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,879 [INFO ] -  LOCAL.GrantRobDataReaderDataWriterPermissions.ENV.sql is an environment file. We are in the LOCAL environment. This will run based on this check.
+2016-07-28 06:50:02,881 [INFO ] -  Running LOCAL.GrantRobDataReaderDataWriterPermissions.ENV.sql on Maurice-PC3\SqlExpress - DBVersion.
+2016-07-28 06:50:02,954 [INFO ] -  TEST.GrantRobDataReaderDataWriterPermissions.ENV.sql is an environment file. We are in the LOCAL environment. This will NOT run based on this check.
+2016-07-28 06:50:02,957 [INFO ] -  Skipped TEST.GrantRobDataReaderDataWriterPermissions.ENV.sql - No changes were found to run.
+2016-07-28 06:50:02,959 [INFO ] - 
+
+RoundhousE v0.8.6.0 has kicked your database (DBVersion)! You are now at version 0. All changes and backups can be found at "C:\ProgramData\ChuckNorris\RoundhousE\migrations\DBVersion\SqlExpress\20160728_064958_1973".
